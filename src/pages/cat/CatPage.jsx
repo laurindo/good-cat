@@ -28,7 +28,7 @@ class CatPage extends React.Component {
     const {name, age, favoriteActivity, petPeave, ownership} = this.state;
     return (
       <div className="content">
-        <SimpleCard title="Help make a Purrfect Match"></SimpleCard>
+        <SimpleCard title="Help make a Purrfect Match" image="https://images.pexels.com/photos/617278/pexels-photo-617278.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"></SimpleCard>
         <div className="form">
           <form name="cat">
             <div>

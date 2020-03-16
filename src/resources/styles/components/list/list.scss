@@ -1,0 +1,70 @@
+@import "../core/colors";
+
+.simpleList {
+  width: 100%;
+  height: calc(100vh - 12em);
+  background-color: $white;
+  border-radius: 5px;
+  div.header {
+    padding: 9px 0 9px 50px;
+    border-bottom: 1px solid #D0DAE8;
+    @media (max-width: 600px) {
+      padding: 0 10px;
+    }
+  }
+  div.body {
+    padding: 9px 0 9px 50px;
+    height: calc(100vh - 20em);
+    overflow-x: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    &::-webkit-scrollbar {
+      width: 3px;
+    }
+    &::-webkit-scrollbar-track {
+      background-color: transparent;
+      border-radius: 10px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: $primary1;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 600px) {
+      padding: 0 10px;
+      margin: 0;
+    }
+  }
+  table {
+    width: 100%;
+    overflow-x: auto;
+    background-color: white;
+    border-collapse: collapse;
+    border-spacing: 0;
+    tr {
+      height: 97px;
+    }
+    td, th {
+      min-width: 158px;
+      background-color: white;
+      padding: 0 20px 0 20px;
+      border-bottom: 1px solid #D0DAE8;
+      &.image {
+        min-width: 80px;
+        width: 80px;
+        padding: 0;
+      }
+      span {
+        &.bold {
+          font-weight: bold;
+        }
+      }
+      img {
+        width: 100px;
+        height: 80px;
+        border-radius: 5px;
+        object-fit: cover;
+      }
+    }
+  }
+}

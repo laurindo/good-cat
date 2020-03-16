@@ -1,0 +1,19 @@
+@import "../core/colors.scss";
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 316px;
+  height: 44px;
+  border-radius: 5px;
+  background-color: $white;
+  border: 0;
+  p {
+    margin: 0 9px!important;
+  }
+}
+
+.linear {
+  background: linear-gradient(12.07deg, #7372F2 30.28%, rgba(115, 114, 242, 0) 341.44%);
+}

@@ -1,0 +1,13 @@
+@import "../core/colors";
+@import "../core/mixins";
+
+.container {
+  height: calc(100vh - 6.2em);
+  padding: 50px;
+  background-image: linear-gradient(347.71deg, $primary1, $primary2);
+  @media (max-width: 600px) {
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+  }
+}

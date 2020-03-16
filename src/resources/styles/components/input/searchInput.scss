@@ -1,0 +1,30 @@
+@import "../core/colors";
+
+.searchInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 274px;
+  background-color: $white;
+  border-radius: 5px;
+  padding: 0 15px 0 27px;
+  svg {
+    margin-right: 15px;
+  }
+  input {
+    background-color: transparent;
+    min-width: 203px;
+    border:  0;
+    height: 42px;
+    &::placeholder {
+      color: $black;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .searchInput {
+    width: 100%;
+    padding: 0 5px;
+  }
+}

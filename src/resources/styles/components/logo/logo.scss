@@ -1,0 +1,20 @@
+@import "../core/colors";
+
+.logo {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  h1 {
+    font-size: 25px;
+    color: $white;
+    margin-left: 15px;
+  }
+
+  @media (max-width: 600px) {
+    h1 {
+      display: none;
+    }
+  }
+
+}

@@ -1,0 +1,22 @@
+@import "../core/colors";
+
+.wrapperProgressBar {
+  width: 100%;
+  margin: 0 0 8px 0;
+  p {
+    margin: 0 0 6px 0;
+  }
+  .progressBar {
+    width: 100%;
+    background-color: $primary5;
+    padding: 0;
+    border-radius: 20px;
+    .progressBarFill {
+      display: block;
+      height: 18px;
+      background-color: $primary1;
+      border-radius: 20px;
+      transition: width 500ms ease-in-out;
+    }
+  }
+}

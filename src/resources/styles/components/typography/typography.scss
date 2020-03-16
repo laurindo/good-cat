@@ -1,0 +1,35 @@
+@import "../core/fonts.scss";
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.body1 {
+  font-size: 15px;
+  font-style: italic;
+  font-family: $roboto;
+  margin: 0;
+}
+
+.body2 {
+  font-size: 13px;
+  line-height: 16px;
+  font-family: $roboto;
+  margin: 0;
+}
+
+.noItalic {
+  font-style: normal;
+}

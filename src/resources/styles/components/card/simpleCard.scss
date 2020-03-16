@@ -1,0 +1,35 @@
+.simpleCard {
+  &.imageWrapper {
+    width: 50%;
+    min-height: 731px;
+    background-size: cover;
+    margin-right: 25px;
+    border-radius: 5px;
+    .imageContainer {
+      background-color: rgba(3, 0, 250, 0.4);
+      border-radius: 10px;
+      width: 100%;
+      height: 100%;
+      .image {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+      }
+      .text {
+        margin: 0;
+        color: #fff;
+        font-size: 78px;
+        padding: 10px 14px 44px 29px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      width: 100%;
+      min-height: auto;
+      height: auto;
+      padding: 5px 0;
+    }
+
+  }
+}

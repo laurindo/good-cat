@@ -43,7 +43,34 @@ const initialState = {
       duration: "years"
     },
     favoriteActivity: "Sleeping",
-    petPeave: "Loud noises"
+    petPeave: "Loud noises",
+    analytics: {
+      personalities: [{
+        name: 'Curious',
+        value: 28
+      }, {
+        name: 'Friendly',
+        value: 44
+      }, {
+        name: 'Energetic',
+        value: 55
+      }],
+      activities: [{
+        name: 'Meowing',
+        y: 15,
+        sliced: true,
+        selected: true
+      }, {
+        name: 'Hunting',
+        y: 40,
+      }, {
+        name: 'Sleeping',
+        y: 15,
+      }, {
+        name: 'Eating',
+        y: 30,
+      }]
+    }
   }, {
     name: "Tuna",
     birthday: {
@@ -51,7 +78,34 @@ const initialState = {
       duration: "months"
     },
     favoriteActivity: "Playing",
-    petPeave: "None"
+    petPeave: "None",
+    analytics: {
+      personalities: [{
+        name: 'Curious',
+        value: 78
+      }, {
+        name: 'Friendly',
+        value: 44
+      }, {
+        name: 'Energetic',
+        value: 55
+      }],
+      activities: [{
+        name: 'Meowing',
+        y: 25,
+        sliced: true,
+        selected: true
+      }, {
+        name: 'Hunting',
+        y: 7,
+      }, {
+        name: 'Sleeping',
+        y: 55,
+      }, {
+        name: 'Eating',
+        y: 13,
+      }]
+    }
   }, {
     name: "Clawdia",
     birthday: {
@@ -59,7 +113,34 @@ const initialState = {
       duration: "year"
     },
     favoriteActivity: "Staring",
-    petPeave: "Hairballs"
+    petPeave: "Hairballs",
+    analytics: {
+      personalities: [{
+        name: 'Curious',
+        value: 78
+      }, {
+        name: 'Friendly',
+        value: 44
+      }, {
+        name: 'Energetic',
+        value: 55
+      }],
+      activities: [{
+        name: 'Meowing',
+        y: 25,
+        sliced: true,
+        selected: true
+      }, {
+        name: 'Hunting',
+        y: 7,
+      }, {
+        name: 'Sleeping',
+        y: 55,
+      }, {
+        name: 'Eating',
+        y: 13,
+      }]
+    }
   }, {
     name: "Catzilla",
     birthday: {
@@ -67,7 +148,34 @@ const initialState = {
       duration: "year"
     },
     favoriteActivity: "Meowing",
-    petPeave: "No one listening"
+    petPeave: "No one listening",
+    analytics: {
+      personalities: [{
+        name: 'Curious',
+        value: 18
+      }, {
+        name: 'Friendly',
+        value: 84
+      }, {
+        name: 'Energetic',
+        value: 89
+      }],
+      activities: [{
+        name: 'Meowing',
+        y: 25,
+        sliced: true,
+        selected: true
+      }, {
+        name: 'Hunting',
+        y: 7,
+      }, {
+        name: 'Sleeping',
+        y: 55,
+      }, {
+        name: 'Eating',
+        y: 13,
+      }]
+    }
   }, {
     name: "Fluffy Jenkins",
     birthday: {
@@ -75,7 +183,34 @@ const initialState = {
       duration: "years"
     },
     favoriteActivity: "Eating",
-    petPeave: "Hairballs"
+    petPeave: "Hairballs",
+    analytics: {
+      personalities: [{
+        name: 'Curious',
+        value: 78
+      }, {
+        name: 'Friendly',
+        value: 44
+      }, {
+        name: 'Energetic',
+        value: 55
+      }],
+      activities: [{
+        name: 'Meowing',
+        y: 25,
+        sliced: true,
+        selected: true
+      }, {
+        name: 'Hunting',
+        y: 7,
+      }, {
+        name: 'Sleeping',
+        y: 55,
+      }, {
+        name: 'Eating',
+        y: 13,
+      }]
+    }
   }, {
     name: "Birdie",
     birthday: {
@@ -83,7 +218,34 @@ const initialState = {
       duration: "years"
     },
     favoriteActivity: "Sleeping",
-    petPeave: "Loud noises"
+    petPeave: "Loud noises",
+    analytics: {
+      personalities: [{
+        name: 'Curious',
+        value: 78
+      }, {
+        name: 'Friendly',
+        value: 44
+      }, {
+        name: 'Energetic',
+        value: 55
+      }],
+      activities: [{
+        name: 'Meowing',
+        y: 25,
+        sliced: true,
+        selected: true
+      }, {
+        name: 'Hunting',
+        y: 7,
+      }, {
+        name: 'Sleeping',
+        y: 55,
+      }, {
+        name: 'Eating',
+        y: 13,
+      }]
+    }
   }, {
     name: "Tuna",
     birthday: {
@@ -91,7 +253,34 @@ const initialState = {
       duration: "months"
     },
     favoriteActivity: "Playing",
-    petPeave: "None"
+    petPeave: "None",
+    analytics: {
+      personalities: [{
+        name: 'Curious',
+        value: 78
+      }, {
+        name: 'Friendly',
+        value: 44
+      }, {
+        name: 'Energetic',
+        value: 55
+      }],
+      activities: [{
+        name: 'Meowing',
+        y: 25,
+        sliced: true,
+        selected: true
+      }, {
+        name: 'Hunting',
+        y: 7,
+      }, {
+        name: 'Sleeping',
+        y: 55,
+      }, {
+        name: 'Eating',
+        y: 13,
+      }]
+    }
   }, {
     name: "Clawdia",
     birthday: {
@@ -99,7 +288,34 @@ const initialState = {
       duration: "year"
     },
     favoriteActivity: "Staring",
-    petPeave: "Hairballs"
+    petPeave: "Hairballs",
+    analytics: {
+      personalities: [{
+        name: 'Curious',
+        value: 78
+      }, {
+        name: 'Friendly',
+        value: 44
+      }, {
+        name: 'Energetic',
+        value: 55
+      }],
+      activities: [{
+        name: 'Meowing',
+        y: 25,
+        sliced: true,
+        selected: true
+      }, {
+        name: 'Hunting',
+        y: 7,
+      }, {
+        name: 'Sleeping',
+        y: 55,
+      }, {
+        name: 'Eating',
+        y: 13,
+      }]
+    }
   }, {
     name: "Catzilla",
     birthday: {
@@ -107,7 +323,34 @@ const initialState = {
       duration: "year"
     },
     favoriteActivity: "Meowing",
-    petPeave: "No one listening"
+    petPeave: "No one listening",
+    analytics: {
+      personalities: [{
+        name: 'Curious',
+        value: 78
+      }, {
+        name: 'Friendly',
+        value: 44
+      }, {
+        name: 'Energetic',
+        value: 55
+      }],
+      activities: [{
+        name: 'Meowing',
+        y: 25,
+        sliced: true,
+        selected: true
+      }, {
+        name: 'Hunting',
+        y: 7,
+      }, {
+        name: 'Sleeping',
+        y: 55,
+      }, {
+        name: 'Eating',
+        y: 13,
+      }]
+    }
   }, {
     name: "Fluffy Jenkins",
     birthday: {
@@ -115,7 +358,34 @@ const initialState = {
       duration: "years"
     },
     favoriteActivity: "Eating",
-    petPeave: "Hairballs"
+    petPeave: "Hairballs",
+    analytics: {
+      personalities: [{
+        name: 'Curious',
+        value: 78
+      }, {
+        name: 'Friendly',
+        value: 44
+      }, {
+        name: 'Energetic',
+        value: 55
+      }],
+      activities: [{
+        name: 'Meowing',
+        y: 25,
+        sliced: true,
+        selected: true
+      }, {
+        name: 'Hunting',
+        y: 7,
+      }, {
+        name: 'Sleeping',
+        y: 55,
+      }, {
+        name: 'Eating',
+        y: 13,
+      }]
+    }
   }, {
     name: "Birdie",
     birthday: {
@@ -123,7 +393,34 @@ const initialState = {
       duration: "years"
     },
     favoriteActivity: "Sleeping",
-    petPeave: "Loud noises"
+    petPeave: "Loud noises",
+    analytics: {
+      personalities: [{
+        name: 'Curious',
+        value: 78
+      }, {
+        name: 'Friendly',
+        value: 44
+      }, {
+        name: 'Energetic',
+        value: 55
+      }],
+      activities: [{
+        name: 'Meowing',
+        y: 25,
+        sliced: true,
+        selected: true
+      }, {
+        name: 'Hunting',
+        y: 7,
+      }, {
+        name: 'Sleeping',
+        y: 55,
+      }, {
+        name: 'Eating',
+        y: 13,
+      }]
+    }
   }, {
     name: "Tuna",
     birthday: {
@@ -131,7 +428,34 @@ const initialState = {
       duration: "months"
     },
     favoriteActivity: "Playing",
-    petPeave: "None"
+    petPeave: "None",
+    analytics: {
+      personalities: [{
+        name: 'Curious',
+        value: 78
+      }, {
+        name: 'Friendly',
+        value: 44
+      }, {
+        name: 'Energetic',
+        value: 55
+      }],
+      activities: [{
+        name: 'Meowing',
+        y: 25,
+        sliced: true,
+        selected: true
+      }, {
+        name: 'Hunting',
+        y: 7,
+      }, {
+        name: 'Sleeping',
+        y: 55,
+      }, {
+        name: 'Eating',
+        y: 13,
+      }]
+    }
   }, {
     name: "Clawdia",
     birthday: {
@@ -139,7 +463,34 @@ const initialState = {
       duration: "year"
     },
     favoriteActivity: "Staring",
-    petPeave: "Hairballs"
+    petPeave: "Hairballs",
+    analytics: {
+      personalities: [{
+        name: 'Curious',
+        value: 78
+      }, {
+        name: 'Friendly',
+        value: 44
+      }, {
+        name: 'Energetic',
+        value: 55
+      }],
+      activities: [{
+        name: 'Meowing',
+        y: 25,
+        sliced: true,
+        selected: true
+      }, {
+        name: 'Hunting',
+        y: 7,
+      }, {
+        name: 'Sleeping',
+        y: 55,
+      }, {
+        name: 'Eating',
+        y: 13,
+      }]
+    }
   }, {
     name: "Catzilla",
     birthday: {
@@ -147,7 +498,34 @@ const initialState = {
       duration: "year"
     },
     favoriteActivity: "Meowing",
-    petPeave: "No one listening"
+    petPeave: "No one listening",
+    analytics: {
+      personalities: [{
+        name: 'Curious',
+        value: 78
+      }, {
+        name: 'Friendly',
+        value: 44
+      }, {
+        name: 'Energetic',
+        value: 55
+      }],
+      activities: [{
+        name: 'Meowing',
+        y: 25,
+        sliced: true,
+        selected: true
+      }, {
+        name: 'Hunting',
+        y: 7,
+      }, {
+        name: 'Sleeping',
+        y: 55,
+      }, {
+        name: 'Eating',
+        y: 13,
+      }]
+    }
   }]
 };
 
